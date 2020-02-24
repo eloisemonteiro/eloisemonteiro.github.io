@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800&display=swap');
+
+body {
+  background-image: url('img/papyrus.png');
+  background-size: initial;
+  background-position: bottom left;
+  background-repeat: repeat;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.logo {
+  width: 100%;
+  max-width: 500px;
+  margin: 85px 45px 55px 45px;
+
+}
+
+.box {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  display: block;
+  border-radius: 20px;
+}
+
+.size-1 {
+  padding: 80px 50px;
+  font-size: 18px;
+}
+
+.size-2 {
+  padding: 15px;
+}
+
+.size-1 img {
+  margin-right: 10px;
+  width: 40px;
+
+}
+
+.size-1 img:last-child {
+  margin-right: 0px;
+}
+
+.size-3 {
+  padding: 15px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.highlight-container,
+.highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #FFF800;
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
+
+.row-space {
+  margin: 50px 0 0px 0px;
+}
+
+.row-space-top {
+  margin-top: 20px;
+}
+
+.dark {
+  background: #000;
+  border-radius: 50vh;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 6px 20px;
+  height: 40px;
+  border: 0
+}
+
+.dark:hover {
+  background: #f9f9f9;
+  color: #000;
+  border: 0
+}
+
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+.img-client {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.text-muted {
+  font-size: 10px;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+@media only screen and (max-width: 600px) {
+  .small-margin-top {
+    margin-top: 20px !important;
+  }
+
+  .size-1 {
+    padding: 30px 22px;
+    font-size: 16px;
+  }
+
+  .row-space {
+    margin: 20px 0;
+  }
+
+  .size-1 img {
+    margin-right: 10px;
+    width: 30px;
+    float: left;
+    margin-top: 30px;
+  }
+
+}
