@@ -43,13 +43,13 @@ html {
   padding: 15px;
 }
 
-.size-1 img {
+.size-1 a img {
   margin-right: 10px;
   width: 40px;
 
 }
 
-.size-1 img:last-child {
+.size-1 a:last-child img {
   margin-right: 0px;
 }
 
@@ -108,7 +108,7 @@ html {
 }
 
 .dark:hover {
-  background: #f9f9f9;
+  background: rgba(0,0,0,0.15);
   color: #000;
   border: 0
 }
