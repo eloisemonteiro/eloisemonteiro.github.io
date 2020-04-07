@@ -190,14 +190,13 @@ a:hover {
 
 img.wp-smiley,
 img.emoji {
-  display: inline !important;
   border: none !important;
   box-shadow: none !important;
   margin: 0 .07em !important;
   vertical-align: -0.1em !important;
   background: none !important;
   padding: 0 !important;
-  width: 10px;
+  width: 10px !important;
 }
 
 .img-client {
