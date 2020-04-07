@@ -19,6 +19,13 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
 .logo {
   width: 100%;
   max-width: 500px;
@@ -64,12 +71,14 @@ html {
 
 .highlight-container, 
 .highlight2-container,
+.highlight3-container,
 .highlight {
   position: relative;
 }
 
 .highlight-container,
-.highlight2-container {
+.highlight2-container,
+.highlight3-container {
   display: inline-block;
 }
 
@@ -104,6 +113,39 @@ html {
   left: -3px;  
   border-radius: 20% 25% 20% 24%;  
   padding: 10px 3px 3px 10px;
+}
+
+.highlight3-container::before {
+  content: " ";
+  display: block;
+  height: 75%;
+  width: 80%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #FFF800;
+  transform: rotate(-2deg);
+  top: 5px;
+  left: -4px;
+  border-radius: 30% 25% 30% 24%;
+  padding: 10px 10px 3px 10px
+
+}
+
+.resume {
+  font-size: 17px;
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.down {
+  width: 13% !important;
+  margin-right: 4px !important;
 }
 
 .title, .title2 {
@@ -197,6 +239,9 @@ img.emoji {
 
 .disabled {
   opacity: 0.4;
+  cursor: default;
+  filter: gray;
+  filter: grayscale(100%);
 }
 
 
