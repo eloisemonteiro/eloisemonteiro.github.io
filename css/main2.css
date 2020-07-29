@@ -260,7 +260,7 @@ img {
   display: inline-block;
   border-top: 1px solid #000;
   right: -130%;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 .content-title-02 {
@@ -268,7 +268,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  top: 83%;
+  top: 70%;
   width: 50%;
   right: -86%;
 }
