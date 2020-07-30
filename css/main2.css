@@ -203,8 +203,8 @@ img {
 
 
 
-.furukawa01{
-  margin: 50px;
+.furukawa01, .furukawa02, .misschef{
+  margin: 50px 50px 50px 0;
   width: 50%;
   position: relative;
 }
@@ -246,47 +246,59 @@ img {
 }
 
 
-.furukawa02 {
-  margin: 50px;
+.mdlz, .dash {
+  margin: 50px 0;
   width: 50%;
   float: right;
   position: relative;
 }
 
-.line02 {
+.line02, .line04 {
   position: relative;
-  width: 65%;
+  width: 75%;
   z-index: 99999;
   display: inline-block;
   border-top: 1px solid #000;
-  right: -130%;
+  right: -133%;
   margin-top: 30%;
 }
 
-.content-title-02 {
+.content-title-02, .content-title-04  {
   font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
   position: absolute;
   top: 70%;
-  width: 50%;
-  right: -86%;
+  width: 60%;
+  right: -100%;
 }
 
-.project02 {
+.project02, .project04{
   text-align: right;
   position: absolute;
-  right: -80%;
+  right: -87%;
   width: 100%;
   top: 100%;
 }
 
-.mdlz {
-  margin: 50px 50px 50px 230px;
-  width: 50%;
-  position: relative;
+.line04 {
+  margin-top: 8%;
+  right: -92%;
 }
 
+.content-title-04 {
+  top: 0%;
+  width: 39%;
+  right: -63%;
+}
+
+.project04 {
+  right: -48%;
+}
+
+.misschef, .dash, .furukawa02  {
+  width: 60%;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
