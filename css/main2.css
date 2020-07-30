@@ -8,7 +8,8 @@ body {
 	font-size: 1rem;
 	font-family: "Verdana", sans-serif;
 	color: #1c1b20;
-	text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 html {
@@ -237,7 +238,6 @@ img {
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.8rem;
 	width: 25%;
-	text-align: justify;
 }
 
 .content-txt strong {
@@ -386,9 +386,25 @@ img {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+
+  .hello {
+    left: calc(50% - 165px);
+    font-size: 10rem;
+    letter-spacing: -0.7rem;
+}
+
 	.content-txt {
-		width: 36%;
-	}
+		width: 39%;
+  }
+  
 	.line02 {
 		margin-top: 0%;
 		right: -73%;
@@ -398,23 +414,22 @@ img {
 		right: -37%;
 	}
 	.project02 {
-		right: -27%
+		right: -20%;
 	}
 	.content-title-04 {
 		top: 0%;
-		right: -8%;
+		right: 0%;
 	}
 	.line04 {
-		right: -68%;
+		right: -58%;
 		width: 50%;
 	}
-	.project04 {
-		right: -3%;
-	}
+  .project04 {
+    right: 3%;
+    width: 85%;
+    top: 40%;
 }
 
 
-/* Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {}
+}
 
