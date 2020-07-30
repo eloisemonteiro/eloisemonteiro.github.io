@@ -30,7 +30,7 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .row-header {
@@ -47,27 +47,27 @@ img {
 	font-size: 0.9rem;
 }
 
-
 .menu-link {
-  list-style: none;
-  padding: 0;
-  width: auto;
-  position: absolute;
-  right: -5%;
-  top: calc(50% - 56px);
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	width: auto;
+	position: absolute;
+	right: -5%;
+	top: calc(50% - 56px);
+	margin: 0;
 }
 
 .menu-link li {
-  display: block;
-  width: auto;
-  margin: 10px 0;
-  text-align: center;
+	display: block;
+	width: auto;
+	margin: 10px 0;
+	text-align: center;
 }
 
 .menu-link li img {
-  width: 20px;
+	width: 20px;
 }
+
 .switch-lang {
 	top: 25%;
 	right: 10px;
@@ -108,8 +108,8 @@ img {
 }
 
 .height-align {
-  height: calc(100vh - 100px);
-  padding: 0 11px;
+	height: calc(100vh - 100px);
+	padding: 0 11px;
 }
 
 .hello {
@@ -130,18 +130,18 @@ img {
 }
 
 .hello-scrolldown {
-  transform: rotate(-90deg) translateY(-60px) !important;
-  position: absolute;
-  left: 50%;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  bottom: 10%;
+	transform: rotate(-90deg) translateY(-60px) !important;
+	position: absolute;
+	left: 50%;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	bottom: 10%;
 }
 
 .hello-scrolldown i {
-    right: 8px;
-    position: relative;
+	right: 8px;
+	position: relative;
 }
 
 .typing {
@@ -153,9 +153,9 @@ img {
 }
 
 .arrow {
-  -webkit-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
-  -moz-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
-  animation: bounce 200ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+	-webkit-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+	-moz-animation: bounce 800ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
+	animation: bounce 200ms cubic-bezier(0.7, 0, 0.3, 1) infinite alternate;
 }
 
 @keyframes typing {
@@ -193,131 +193,228 @@ img {
 	}
 }
 
-.bounceInRight { animation-name: bounceInRight }
+.bounceInRight {
+	animation-name: bounceInRight
+}
+
 @keyframes bounceInRight {
-    0% { transform: translate3d(300%, 0, 0) }
-    58% { transform: translate3d(-27px, 0, 0) }
-    73% { transform: translate3d(12px, 0, 0) }
-    88% { transform: translate3d(-8px, 0, 0) }
+	0% {
+		transform: translate3d(300%, 0, 0)
+	}
+	58% {
+		transform: translate3d(-27px, 0, 0)
+	}
+	73% {
+		transform: translate3d(12px, 0, 0)
+	}
+	88% {
+		transform: translate3d(-8px, 0, 0)
+	}
 }
 
-
-
-.furukawa01, .furukawa02, .misschef{
-  margin: 50px 50px 50px 0;
-  width: 50%;
-  position: relative;
+.furukawa01,
+.furukawa02,
+.cits {
+	margin: 50px 50px 50px 0;
+	width: 50%;
+	position: relative;
 }
 
-.line01 {
-  position: relative;
-  width: 95%;
-  z-index: 99999;
-  display: inline-block;
-  border-top: 1px solid #000;
-  right: 20%;
+.line01,
+.line03,
+.line05 {
+	position: relative;
+	width: 95%;
+	z-index: 99999;
+	display: inline-block;
+	border-top: 1px solid #000;
+	right: 20%;
 }
+
 .content-txt {
-  position: absolute;
-  top: 20%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
-  width: 25%;
-  text-align: justify;
+	position: absolute;
+	top: 20%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8rem;
+	width: 25%;
+	text-align: justify;
 }
 
 .content-txt strong {
-  display: block;
-  margin-top: 30px;
+	display: block;
+	margin-top: 30px;
 }
 
 .content-txt strong:first-child {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
-.content-title-01 {
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: absolute;
-  top: -5%;
-  width: 100%;
-  left: -5%;
+.content-title-01,
+.content-title-03,
+.content-title-05 {
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	top: -5%;
+	width: 100%;
+	left: -5%;
 }
 
-
-.mdlz, .dash {
-  margin: 50px 0;
-  width: 50%;
-  float: right;
-  position: relative;
+.mdlz,
+.dash,
+.gaianet {
+	margin: 50px 0;
+	width: 50%;
+	float: right;
+	position: relative;
 }
 
-.line02, .line04 {
-  position: relative;
-  width: 75%;
-  z-index: 99999;
-  display: inline-block;
-  border-top: 1px solid #000;
-  right: -133%;
-  margin-top: 30%;
+.line02,
+.line04,
+.line06 {
+	position: relative;
+	width: 75%;
+	z-index: 99999;
+	display: inline-block;
+	border-top: 1px solid #000;
+	right: -133%;
+	margin-top: 30%;
 }
 
-.content-title-02, .content-title-04  {
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: absolute;
-  top: 70%;
-  width: 60%;
-  right: -100%;
+.content-title-02,
+.content-title-04,
+.content-title-06 {
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: absolute;
+	top: 70%;
+	right: -100%;
+	width: 100%;
+	text-align: right;
+	margin-right: 20px;
 }
 
-.project02, .project04{
-  text-align: right;
-  position: absolute;
-  right: -87%;
-  width: 100%;
-  top: 100%;
+.project02,
+.project04,
+.project06 {
+	text-align: right;
+	position: absolute;
+	right: -87%;
+	width: 100%;
+	top: 100%;
 }
 
 .line04 {
-  margin-top: 8%;
-  right: -92%;
+	margin-top: 8%;
+	right: -92%;
 }
 
 .content-title-04 {
-  top: 0%;
-  width: 39%;
-  right: -63%;
+	top: 0%;
+	right: -58%;
 }
 
 .project04 {
-  right: -48%;
+	right: -48%;
 }
 
-.misschef, .dash, .furukawa02  {
-  width: 60%;
+.dash,
+.furukawa02 {
+	width: 60%;
 }
+
+.cits,
+.gaianet {
+	width: 70%;
+}
+
+.line05 {
+	width: 40%;
+}
+
+.line06 {
+	right: -83%;
+	margin-top: 0%;
+	width: 45%;
+}
+
+.content-title-05 {
+	top: -80%;
+}
+
+.content-title-06 {
+	right: -20%;
+	top: -80%;
+}
+
+.project05 {
+	width: 60%;
+	position: absolute;
+	left: 0%;
+}
+
+.project06 {
+	right: -8%;
+}
+
+.line06 {
+	right: -43%;
+}
+
+.content-title-06 {
+	right: 20%;
+}
+
+.project06 {
+	right: 28%;
+	width: 67%;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
-}
- 
+
+@media (min-width: 576px) {}
+
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
- 
-}
- 
+
+@media (min-width: 768px) {}
+
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
- 
 
-
+@media (min-width: 992px) {
+	.content-txt {
+		width: 36%;
+	}
+	.line02 {
+		margin-top: 0%;
+		right: -73%;
+	}
+	.content-title-02 {
+		top: -100%;
+		right: -37%;
+	}
+	.project02 {
+		right: -27%
+	}
+	.content-title-04 {
+		top: 0%;
+		right: -8%;
+	}
+	.line04 {
+		right: -68%;
+		width: 50%;
+	}
+	.project04 {
+		right: -3%;
+	}
 }
- 
+
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-    
-}
+
+@media (min-width: 1200px) {}
+
