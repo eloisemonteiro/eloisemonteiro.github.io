@@ -412,15 +412,12 @@ h1 {
 
 #content strong {
 	display: block;
-	margin: 0 0 10px;
+	margin: 0 0 5px;
 	font-size: 16px;
 	font-family: "Oswald", sans-serif;
 }
 
 
-.row-margin {
-    margin-top: 30px;
-}
 
 .AnimTextEloise {
 	color: #000;
