@@ -412,7 +412,7 @@ h1 {
 
 #content strong {
 	display: block;
-	margin: 0 0 5px;
+	margin: 10px 0;
 	font-size: 16px;
 	font-family: "Oswald", sans-serif;
 }
