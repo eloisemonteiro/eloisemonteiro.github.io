@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
   
   
       //.from($intro1, 5, { y: "-1250%", ease: Power1.easeInOut, delay: 0.75 }, "trans1")
-      .to($intro2, 5, { opacity: "1", left: "0%", ease: Power1.easeInOut, delay: 0.75 }, "trans1")
+      .to($intro2, 5, { opacity: "1", left: "0%", ease:Power4.easeInOut, delay: 0.15 }, "trans1")
       .to($item9, 1, { transform: "scale(1)", opacity: "1", ease: Power3.easeInOut })
       //.to($item10, 1, { opacity: "1", top: "-190%", right: "5%", ease: Power2.easeInOut },  'trans1')
       .to($desc, 2, { opacity: "1", ease: Power2.easeInOut })
