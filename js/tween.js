@@ -1,9 +1,8 @@
 jQuery(document).ready(function ($) {
     var $stage = $('.stage'),
-      $intro1 = $('#intro'),
-      $intro2 = $('#job'),
-      $desc = $('#desc'),
-      $nome = $('#nome'),
+      $intro1 = $('#_01'),
+      $intro2 = $('#_02'),
+      $intro3 = $('#_03'),
       $item1 = $('#item1'),
       $item2 = $('#item2'),
       $item3 = $('#item3'),
@@ -14,7 +13,7 @@ jQuery(document).ready(function ($) {
       $item8 = $('#item8'),
       $item9 = $('#item9');
       $item10 = $('#item10');
-    $scroll = $('#scroll');
+      $scroll = $('#scroll');
   
     // init controller
     var controller = new ScrollMagic.Controller();
@@ -25,43 +24,39 @@ jQuery(document).ready(function ($) {
     var scrollAnimation = new TimelineMax();
     scrollAnimation.set($stage, { autoAlpha: 1 })
   
-  
-      //.from($intro1, 5, { y: "-1250%", ease: Power1.easeInOut, delay: 0.75 }, "trans1")
-      .to($intro2, 5, { opacity: "1", left: "0%", ease:Power4.easeInOut, delay: 0.15 }, "trans1")
-      .to($item9, 1, { transform: "scale(1)", opacity: "1", ease: Power3.easeInOut })
-      //.to($item10, 1, { opacity: "1", top: "-190%", right: "5%", ease: Power2.easeInOut },  'trans1')
-      .to($desc, 2, { opacity: "1", ease: Power2.easeInOut })
-      .to($item4, 3, { transform: "scale(1)", ease: Power3.easeInOut })
-      .to($item8, 3, { transform: "scale(1)", ease: Power3.easeInOut })
-      .from($item5, 3, { transform: "scale(1)", ease: Power3.easeInOut })
-      .to($item4, 1, { transform: "scale(0)", ease: Power3.easeInOut, delay: 10 })
-      .to($item8, 1, { transform: "scale(0)", ease: Power3.easeInOut }, '-=1')
+    
+      .from($intro1, 1, {  width: "480px", ease:Power4.easeInOut, delay: 0 }, "trans1")
+      .from($intro2, 3, {  width: "480px", ease:Power4.easeInOut, delay: 1 }, "trans1")
+      .from($intro3, 5, {  width: "480px", ease:Power4.easeInOut, delay: 1.8 }, "trans1")
+
+       .add("end", 8)
 
 
-
-
-      .add("end", 8)
       .to($intro1, 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
-      .to($nome, 7, { opacity: "0", left: "-18%", ease: Power1.easeInOut, delay: 12 }, "end")
-      .to($intro2, 7, { opacity: "0", top: "-200%", ease: Power1.easeInOut, delay: 12 }, "end")
-      .to($desc, 7, { opacity: "0", top: "-160%", opacity: "0", ease: Power1.easeInOut, delay: 12 }, "end")
-      .to($item3, 13, { opacity: "0", left: "-200%", ease: Power1.easeInOut, delay: 12 }, "end")
-      .to($item4, 5, { opacity: "0", top: "-300%", ease: Power1.easeInOut, delay: 13 }, "end")
-      .to($item9, 7, { opacity: "0", transform: "scale(0)", ease: Power3.easeInOut, delay: 12 }, "end")
-      .to($item8, 7, { opacity: "0", transform: "scale(0)", ease: Power3.easeInOut, delay: 11 }, "end")
-      .to($item7, 7, { opacity: "0", right: "130%", ease: Power3.easeInOut, delay: 13 }, "end")
-      .to($item1, 10, { opacity: "0", top: "-460%", ease: Power3.easeInOut, delay: 12 }, "end")
-      .to($item6, 7, { opacity: "0", left: "-130%", ease: Power3.easeInOut, delay: 10 }, "end")
-      .to($item2, 7, { opacity: "0", ease: Power3.easeInOut, delay: 14 }, "end")
-      .to($item10, 7, { opacity: "0", top: "-390%", right: "50%", ease: Power3.easeInOut, delay: 11 }, "end")
-      .to($scroll, 7, { opacity: "0", ease: Power3.easeInOut, delay: 13 }, "end")
+      .to($intro2, 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
+      .to($intro3, 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
+      .to(".AnimTextEloise", 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
+      .to(".AnimTextJob", 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
+      .to(".AnimDesc", 6, { opacity: "0", ease: Power1.easeInOut, delay: 6 }, "end")
+
+      .to($item1, 6, { left: "-160%", top: "-370%", ease: Power1.easeInOut, delay: 8 }, "end")
+      .to($item2, 6, { opacity: "0", ease: Power1.easeInOut, delay: 9 }, "end")
+      .to($item3, 6, { bottom: "340px", ease: Power1.easeInOut, delay: 7 }, "end")
+      .to($item4, 6, { top: "-450%", ease: Power1.easeInOut, delay: 8 }, "end")
+      .to($item5, 6, { opacity: "0", top: "-450%", ease: Power1.easeInOut, delay: 9 }, "end")
+      .to($item6, 6, { opacity: "0", transform: "scale(0)", ease: Power1.easeInOut, delay: 7 }, "end")
+      .to($item7, 6, { opacity: "0", ease: Power1.easeInOut, delay: 8 }, "end")
+      .to($item8, 6, { bottom: "300px", ease: Power1.easeInOut, delay: 9 }, "end")
+      .to($item9, 6, { opacity: "0", top: "-210%", ease: Power1.easeInOut, delay: 7 }, "end")
+      .to($item10, 6, { opacity: "0", ease: Power1.easeInOut, delay: 8 }, "end")
+      .to($scroll, 6, { opacity: "0", ease: Power3.easeInOut, delay: 7 }, "end")
   
     // build scene and link scrolling to animation
-    var scene = new ScrollMagic.Scene({ triggerElement: "#main", duration: 2000 , triggerHook: 0,})
+    var scene = new ScrollMagic.Scene({ triggerElement: "#main", duration: 2000 , triggerHook: 0})
       .setPin(".stage" , {pushFollowers: true})
       .addTo(controller)
       .setTween(scrollAnimation);
-    scene.offset(0);
+    scene.offset(-1);
   });
 
 
@@ -83,5 +78,11 @@ jQuery(document).ready(function ($) {
       
       console.log (scrollPercent)
       
+      if (scrollPercent > 28) {
+        $('.menu-link img').css({ 'filter' : 'invert(100%)'});
+       
+      } else {
+        $('.menu-link img').css({ 'filter' : 'invert(0%)' });
+      }
   
-  });
+  });      
