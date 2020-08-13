@@ -623,7 +623,7 @@ h1 {
     margin: 0;
     padding: 0;
     position: fixed;
-    right: 2%;
+    right: 3%;
     z-index: 9999;
     top: calc(50% - 105px);
     height: 160px;
