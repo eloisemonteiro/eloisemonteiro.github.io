@@ -619,14 +619,14 @@ h1 {
 }
 
 .menu-link {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	right: 2%;
-	z-index: 9999;
-	top: calc(50% - 120px);
-	height: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 2%;
+    z-index: 9999;
+    top: calc(50% - 105px);
+    height: 160px;
 }
 
 .menu-link li {
@@ -634,7 +634,7 @@ h1 {
 }
 
 .menu-link img {
-	width: 50px;
+	width: 40px;
 	-webkit-transition: 1s -webkit-filter linear;
 -moz-transition: 1s -moz-filter linear;
 -moz-transition: 1s filter linear;
