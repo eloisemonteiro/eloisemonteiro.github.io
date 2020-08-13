@@ -872,6 +872,10 @@ transition: 1s filter linear, 1s -webkit-filter linear;
 		right: 1.7%;
 	}
 
+	.menu-link img {
+		width: 30px;
+	}
+
 }
 
 @media only screen   
@@ -888,7 +892,7 @@ and (max-width: 1366px)
 	}
 	#item6 {
 		top: -68%;
-		right: -15%;
+		right: -12%;
 	}
 	#item7 {
 		bottom: -140%;
@@ -913,6 +917,13 @@ and (max-width: 1366px)
 	.scroll-down {
 		bottom: -95%;
 	}
+	.menu-link {
+		right: 1.7%;
+	}
+	.menu-link img {
+		width: 30px;
+	}
+
 }
 
 
@@ -946,7 +957,7 @@ and (max-width: 1366px)
 		left: calc(50% - 122px);
 		width: 254px;
 	}
-	
+
 	.AnimTextEloise {
 		font-size: 100px;
 	}
