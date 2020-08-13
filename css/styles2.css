@@ -911,7 +911,7 @@ h1 {
 	.info-content {
 		position: relative;
 		top: 50%;
-		transform: translateY(-42%);
+		transform: translateY(-50%);
 		height: 500px;
 	}
 	.scroll-down {
