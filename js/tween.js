@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
       .to($item2, 6, { opacity: "0", ease: Power1.easeInOut, delay: 9 }, "end")
       .to($item3, 6, { bottom: "340%", ease: Power1.easeInOut, delay: 7 }, "end")
       .to($item4, 6, { top: "-450%", ease: Power1.easeInOut, delay: 8 }, "end")
-      .to($item5, 6, { opacity: "0", top: "-450%", ease: Power1.easeInOut, delay: 9 }, "end")
+      .to($item5, 6, { top: "-550%", ease: Power1.easeInOut, delay: 6 }, "end")
       .to($item6, 6, { opacity: "0", transform: "scale(0)", ease: Power1.easeInOut, delay: 7 }, "end")
       .to($item7, 6, { opacity: "0", ease: Power1.easeInOut, delay: 8 }, "end")
       .to($item8, 6, { bottom: "300%", ease: Power1.easeInOut, delay: 9 }, "end")
