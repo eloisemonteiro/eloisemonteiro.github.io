@@ -1,0 +1,392 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+
+.clear {
+  *zoom: 1;
+}
+
+.clear:after {
+  clear: both;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poiret+One&display=swap");
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cccccc #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 20px;
+  border: 3px solid #ddd;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f3f3f3;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.png);
+  background-repeat: repeat;
+  background-repeat: repeat;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  padding: 0;
+}
+
+.flex-shrink-0 {
+  height: 100%;
+}
+
+.head {
+  height: calc(100% - 60px);
+  padding: 15px;
+ /* background: rgba(0,0,0,0.03);
+  background-clip: content-box; */
+}
+
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#navbarMain {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+
+#navbarMain li {
+  margin-right: 50px;
+}
+
+#navbarMain li a {
+  color: #000;
+}
+
+#navbarMain li a:hover {
+  color: #666;
+}
+
+#navbarMain li.active {
+  color:#283CB1;
+  text-shadow: 
+  -3px 0px 3px yellow,
+   3px 0px 3px yellow,
+   6px 0px 6px yellow,
+  -6px 0px 6px yellow;
+}
+
+.alert {
+  position: absolute;
+  right: 3%;
+  top: 30%;
+  cursor: pointer;
+}
+
+.year {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  top: 50%;
+}
+
+.name {
+  font-size: 130px;
+  font-family: "Poiret One", cursive;
+  color: #2647b6;
+  position: relative;
+  top: 34%;
+  text-transform: uppercase;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.description {
+  font-size: 16.8px;
+  font-family: "Poiret One", cursive;
+  color: #000;
+  position: relative;
+  display: block;
+  top: 28%;
+  text-transform: uppercase;
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.me {
+  position: absolute;
+  left: 6%;
+  top: -50%;
+}
+
+.scroll {
+  text-align: center;
+  position: absolute;
+  width: 91px;
+  left: calc(50% - 45.5px);
+  bottom: 2%;
+}
+
+.down {
+  position: absolute;
+  bottom: 5%;
+  width: 220px;
+  left: calc(50% - 110px);
+  animation-delay: 1s;
+}
+
+.project {
+  max-width: 100%;
+}
+
+.alert:hover {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+.check {
+  width: 20%;
+  cursor: pointer;
+}
+
+.check:hover {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+.projects {
+  margin: 30px 0 ;
+  text-align: left;
+  font-family: "Poiret One", cursive;
+  font-size: 17px;
+}
+
+.projects strong {
+  display: block;
+  margin: 0 0 5px 0;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.divider {
+  margin: 0 0 30px 0;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.contact {
+  margin-top: 10%;
+
+}
+
+.contact span {
+  font-family: "Poiret One", cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  line-height: 53px;
+  display: block;
+}
+
+.contact .info {
+  margin: 6% 0;
+  font-size: 20px;
+  line-height: 33px;
+  text-transform: none;
+}
+
+.awesome {
+  position: absolute;
+  top: -23%;
+  right: 5%;
+}
+
+
+.case {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  background: white;
+  padding: 20px;
+}
+
+.case h2 {
+  margin: 50px 0 25px 0;
+}
+
+
+.desc {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+.desc::before {
+  content: '';
+  position: absolute;
+  border-left: 3px solid #DBBEF2;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.case span {
+  display:block;
+}
+
+.case ul {
+  list-style-image: url('../img/list.png');
+  margin: 1rem 0;
+}
+
+.title {
+  margin: 2% 0;
+}
+
+.stf_logo {
+  margin: 20px 0;
+  width: 30%;
+  text-align: center;
+}
+
+.img-margin {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 575.98px) {}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1920px) {
+
+}
