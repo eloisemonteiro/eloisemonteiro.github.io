@@ -203,6 +203,16 @@ body {
   cursor: pointer;
 }
 
+.check.disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.check.disabled:hover {
+  -webkit-animation: none 0.3s linear infinite both;
+  animation: none 0.3s linear infinite both;
+}
+
 .check:hover {
   -webkit-animation: vibrate-1 0.3s linear infinite both;
   animation: vibrate-1 0.3s linear infinite both;
