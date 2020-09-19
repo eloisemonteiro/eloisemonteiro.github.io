@@ -101,7 +101,7 @@ body {
 }
 
 #navbarMain {
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   font-size: 20px;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .name {
   font-size: 130px;
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   color: #2647b6;
   position: relative;
   top: 34%;
@@ -155,7 +155,7 @@ body {
 
 .description {
   font-size: 16.8px;
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   color: #000;
   position: relative;
   display: block;
@@ -203,16 +203,6 @@ body {
   cursor: pointer;
 }
 
-.check.disabled {
-  opacity: 0.3;
-  cursor: default;
-}
-
-.check.disabled:hover {
-  -webkit-animation: none 0.3s linear infinite both;
-  animation: none 0.3s linear infinite both;
-}
-
 .check:hover {
   -webkit-animation: vibrate-1 0.3s linear infinite both;
   animation: vibrate-1 0.3s linear infinite both;
@@ -221,7 +211,7 @@ body {
 .projects {
   margin: 30px 0 ;
   text-align: left;
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   font-size: 17px;
 }
 
@@ -312,7 +302,7 @@ body {
 }
 
 .contact span {
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   font-size: 38px;
   text-transform: uppercase;
   line-height: 53px;
@@ -334,7 +324,7 @@ body {
 
 
 .case {
-  font-family: "Poiret One", cursive;
+  font-family: "Verdana", sans-serif;
   font-size: 20px;
   background: white;
   padding: 20px;
