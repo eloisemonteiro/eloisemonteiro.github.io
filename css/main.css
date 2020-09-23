@@ -148,6 +148,12 @@ body {
     -6px 0px 6px yellow;
 }
 
+.nav-link2 {
+  display: block;
+  padding: .5rem 1rem;
+      padding-right: 0rem;
+      padding-left: .2rem;
+}
 .alert {
   position: absolute;
   right: 3%;
