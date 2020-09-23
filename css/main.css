@@ -135,6 +135,7 @@ body {
 
 #navbarMain li a {
   color: #000;
+  display: inline-block;
 }
 
 #navbarMain li a:hover {
