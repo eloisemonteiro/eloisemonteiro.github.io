@@ -274,6 +274,11 @@ body {
   width: 72%;
 }
 
+.navbar-light .navbar-toggler {
+  border: 0;
+  padding-left: 0;
+}
+
 @-webkit-keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
@@ -490,6 +495,9 @@ body {
   }
   .check {
     width: 40%;
+  }
+  .alert {
+    top: 100%;
   }
 }
 
