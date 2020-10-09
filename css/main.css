@@ -150,9 +150,9 @@ body {
 
 .nav-link2 {
   display: block;
-  padding: .5rem 1rem;
-      padding-right: 0rem;
-      padding-left: .2rem;
+  padding: 0.5rem 1rem;
+  padding-right: 0rem;
+  padding-left: 0.2rem;
 }
 .alert {
   position: absolute;
@@ -271,7 +271,7 @@ body {
 }
 
 .img-wire2 {
-    width: 72%;
+  width: 72%;
 }
 
 @-webkit-keyframes vibrate-1 {
@@ -381,9 +381,9 @@ body {
   font-size: 16px;
 }
 
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 30px !important;
-} 
+}
 
 .desc {
   display: block;
@@ -426,13 +426,10 @@ body {
   margin: 30px 0 0 0;
 }
 
-
-
 @media (max-width: 575.98px) {
-
   .main-name {
     font-size: 85px;
-}
+  }
 
   .name {
     font-size: 45px;
@@ -476,6 +473,24 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .name {
+    font-size: 88px;
+    top: 36%;
+  }
+  .projects .col-lg-6.col-md-12.col-sm-12 {
+    margin-bottom: 40px;
+  }
+  .projects .col-lg-6.col-md-12.col-sm-12:last-child {
+    margin-bottom: 0px;
+  }
+  .divider {
+    margin: 20px 0 60px 0;
+    width: 68%;
+    max-width: 100%;
+  }
+  .check {
+    width: 40%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
